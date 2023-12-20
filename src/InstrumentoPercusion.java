@@ -6,7 +6,7 @@ public class InstrumentoPercusion extends Instrumento {
 	}
 	
 	public void tocar() {
-		System.out.println("El instrumento que suena es de percusión");
+		System.out.println("Está sonando un instrumento de percusión");
 	}
 
 }

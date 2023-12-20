@@ -35,7 +35,7 @@ public abstract class Instrumento {
 				" y cuesta " + precio + " euros.";
 	}
 	
-	public abstract void tocar();
+	public abstract void tocar();//abstracto
 	
 	
 

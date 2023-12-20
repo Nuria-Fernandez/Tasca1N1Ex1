@@ -21,8 +21,6 @@ public class App {
 		nuevoInstrumento.tocar();		
 	}
 	
-	{
-		System.out.println("Bloque de inicialización");
-	}
+	
 
 }
