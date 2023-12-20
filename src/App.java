@@ -1,5 +1,6 @@
 
 public class App {
+	
 
 	public static void main(String[] args) {
 	
@@ -16,8 +17,12 @@ public class App {
 		tocarInstrumento(nuevoPercu);
 	}
 	
-	static void tocarInstrumento(Instrumento nuevoInstrumento) {
+	static void tocarInstrumento(Instrumento nuevoInstrumento) { //bloque estático
 		nuevoInstrumento.tocar();		
+	}
+	
+	{
+		System.out.println("Bloque de inicialización");
 	}
 
 }

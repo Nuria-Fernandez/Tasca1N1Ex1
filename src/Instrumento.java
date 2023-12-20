@@ -1,6 +1,10 @@
 
 public abstract class Instrumento {
 	
+	{
+		System.out.println("Bloque de inicialización");
+	}
+	
 	protected String nombre;
 	protected int precio;
 	
@@ -32,5 +36,7 @@ public abstract class Instrumento {
 	}
 	
 	public abstract void tocar();
+	
+	
 
 }
